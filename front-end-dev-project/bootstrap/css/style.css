@@ -1,0 +1,73 @@
+body {
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+	font-weight: 300;
+}
+
+.text-muted {
+	color: #7d97ad;
+}
+
+.text-thin {
+	font-weight: 200;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-sub {
+	font-weight: 600;
+}
+
+.title-logo {
+	margin-top: 20px;
+}
+
+.portfolio-logo {
+	width: 150px;
+	max-width: 100%;
+}
+
+.portfolio-head {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+header {
+	margin-top: 25px;
+}
+
+hr {
+	border-top: 5px solid #7d97ad;
+}
+
+.hero {
+	background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+	url(css-images/front-end-dev.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 50vh;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.hero-text h2 {
+  margin: 0;
+  font-size: 5em;
+  white-space: nowrap;
+}
+
+.hero-text h3 {
+  font-size: 2em;
+}
